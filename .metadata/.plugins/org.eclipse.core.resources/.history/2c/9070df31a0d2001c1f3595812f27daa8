@@ -1,0 +1,19 @@
+
+/**
+ * 8. Write a program to generate Arithmetic Exception
+ */
+
+package Exception;
+
+// ArithmeticException is thrown when an exceptional condition has occurred in an arithmetic operation.
+public class GenerateArithmeticException {
+
+    public static void main(String[] args) {
+        int a = 10, b = 0, c;
+        
+            c = a / b;
+
+        System.out.println("c");
+        
+    }
+}
